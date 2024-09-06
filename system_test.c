@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
     int sysR = system("ping -c 10 www.baidu.com");
     if(sysR != 0)
     {
-        perror("system");
+        perror("system ");
         exit(EXIT_FAILURE);
     }
 
