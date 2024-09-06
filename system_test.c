@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
      * return :  成功返回0  失败返回失败编号
      * 
      */
-    int sysR = system("ping -c 10 www.baidu.com");
+    int sysR = system(" ping -c 10 www.baidu.com");
     if(sysR != 0)
     {
         perror("system ");
