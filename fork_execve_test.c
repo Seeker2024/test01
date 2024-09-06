@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
             printf("新学员上二楼失败\n");
             return 1;
         }
-        //新学员上二楼失败   此处代码不执行
+        //新学员上二楼失败  此处代码不执行
     }
     else
     {
